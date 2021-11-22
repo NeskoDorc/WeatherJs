@@ -25,8 +25,8 @@ class Ui {
 
         this.string.textContent = `Temp: ${weather.main.temp}C`
         this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}`
-        this.feelsLike.textContent = `Feels Like :${weather.main.feels_like}C`
-        this.dewpoint.textContent = weather.name
+        this.feelsLike.textContent = `Feels Like: ${weather.main.feels_like}C`
+        this.dewpoint.textContent = `Clouds: ${weather.clouds.all}%`
         this.wind.textContent = `Wind Speed: ${weather.wind.speed}M/S`
 
 
